@@ -33,7 +33,7 @@ Steps:
 
 - action: copy_file
   file_name: '*'
-  url: temp/#ARTIFACT_NAME#
+  url: temp/vcredist6
   dest: windows/system32
 
 - action: override_dll
